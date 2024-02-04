@@ -1,9 +1,33 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Little Wins Tracker</title>
-    </head>
-    <body>
-        Let's go!
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Wins Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Little Wins Tracker</h1>
+    </header>
+    <main>
+        <section id="log-form">
+            <h2>Log Your Little Win</h2>
+            <form id="win-form">
+                <label for="win-input">What's your little win today?</label>
+                <input type="text" id="win-input" name="win" required>
+                <button type="submit">Log It!</button>
+            </form>
+        </section>
+        <section id="win-list">
+            <h2>Your Little Wins</h2>
+            <ul id="win-items">
+                <!-- Little wins will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
 </html>

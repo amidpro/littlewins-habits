@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Little Wins Hub</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
 </head>
 <body>
     <header>
-        <h1>Little Wins Hub</h1>
-        <nav>
+        <h1>Little Wins</h1>
+        <button class="menu-toggle" aria-label="Toggle Navigation Menu">&#9776;</button>
+        <nav class="nav-menu">
             <ul>
-                <li><a href="#todo">To-Do List/Tracker</a></li>
-                <li><a href="#workout">Workout</a></li>
-                <li><a href="#motivation">Motivation/Resources</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#signin">Sign In</a></li>
             </ul>
         </nav>
     </header>
 
-    <footer>
-        <p>&copy; 2024 Little Wins. All rights reserved.</p>
-    </footer>
-    
+    <main class="main-pages">
+        <center><section id="#todo">
+            <h2>Habits</h2>
+        </section>
+
+        <section id="#workout">
+            <h2>Workouts</h2>
+        </section>
+
+        <section id="#mindset">
+            <h2>Mindset</h2>
+        </section></center>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>

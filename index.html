@@ -1,33 +1,28 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Little Wins Tracker</title>
+    <title>Little Wins Hub</title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
 </head>
 <body>
     <header>
-        <h1>Little Wins Tracker</h1>
-    </header>
-    <main>
-        <section id="log-form">
-            <h2>Log Your Little Win</h2>
-            <form id="win-form">
-                <label for="win-input">What's your little win today?</label>
-                <input type="text" id="win-input" name="win" required>
-                <button type="submit">Log It!</button>
-            </form>
-        </section>
-        <section id="win-list">
-            <h2>Your Little Wins</h2>
-            <ul id="win-items">
-                <!-- Little wins will be dynamically added here -->
+        <h1>Little Wins Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#todo">To-Do List/Tracker</a></li>
+                <li><a href="#workout">Workout</a></li>
+                <li><a href="#motivation">Motivation/Resources</a></li>
             </ul>
-        </section>
-    </main>
+        </nav>
+    </header>
+
+    <footer>
+        <p>&copy; 2024 Little Wins. All rights reserved.</p>
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
